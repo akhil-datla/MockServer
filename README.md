@@ -1,4 +1,4 @@
-# Mock-Server
+# MockServer
 This mock server can be used for testing HTTP requests. The server can return the headers of an HTTP request, echo a JSON body back, or have text sent over an HTTP request from a file.
 
 100% written in Go
