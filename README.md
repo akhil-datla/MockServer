@@ -3,19 +3,17 @@ This mock server can be used for testing HTTP requests. The server can return th
 
 100% written in Go
 
-**Go is not required to run this mock server. Download the binary from the link below.**
-
-[Download](https://github.com/akhil-datla/Mock-Server/releases/)
+**Go is required to run this mock server.**
 
 **NOTE: Download the test.txt or create one and save it into the same directory as the mock server program for the default /file API**
 
 To run the mock server from Terminal, type the following command:
 ```
-./server
+go run server.go
 ```
 If you want to change the port and/or the path to read a file for the "/file" API, add the port flag and/or the path flag:
 ```
-./server -port=<PORT> -path=<PATH TO NEW FILE>
+go run server.go -port=<PORT> -path=<PATH TO NEW FILE>
 ```
 
 HTTP Routes:
